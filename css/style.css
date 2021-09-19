@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 nav > ul {
     list-style-type: none;
     text-align: left;
@@ -23,9 +28,29 @@ nav > ul > li > a {
     color: red;
     font-size: small;
     position: fixed;
+    bottom: 20px;
+}
+
+.footer {
+    font-size: small;
+    position: fixed;
     bottom: 0;
 }
 
 .title {
     font-weight: 500;
+}
+
+.gray-bg {
+    background-color: rgba(128, 128, 128, 0.301);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.contact-field {
+    margin-bottom: 5px;
+}
+
+.contact-list {
+    list-style: none;
 }

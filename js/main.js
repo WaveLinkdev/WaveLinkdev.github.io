@@ -4,7 +4,7 @@ window.onload = () => {
 };
 
 async function getData() {
-    var res = await fetch("/data.json");
+    var res = await fetch("/data/data.json");
     var data = res.json();
     return data;
 }
@@ -12,7 +12,7 @@ async function getData() {
 function GenerateDisclaimer() {
     var disclaimer = document.createElement("p");
     disclaimer.innerHTML = `<p class="warning">
-        This page is still under development. For more accurate information refer to <a href="http://wavelink.tk">the
+        This page is still under development. For more information refer to <a href="http://wavelink.tk">the
             old website.</a>
     </p>`;
     document.body.appendChild(disclaimer);
