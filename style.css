@@ -1,12 +1,31 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-h1{
-    font-weight: 500;
+nav > ul {
+    list-style-type: none;
+    text-align: left;
 }
 
+nav > ul > li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Classes */
 .warning {
     color: red;
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+}
+
+.title {
+    font-weight: 500;
 }

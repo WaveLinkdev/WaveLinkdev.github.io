@@ -1,0 +1,12 @@
+{
+    "nav": [
+        {
+            "name": "Home",
+            "location": "/"
+        },
+        {
+            "name": "Contacts",
+            "location": "/contacts.html"
+        }
+    ]
+}
