@@ -1,3 +1,2 @@
 # WaveLinkdev.github.io
-
-The production branch for https://wavelink.me
+The actual page is in the /production branch :)
