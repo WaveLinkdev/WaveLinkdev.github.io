@@ -1,7 +1,6 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    transition: color, background-color 0.5s;
 }
 
 ul {
@@ -59,13 +58,11 @@ nav > ul > li > a {
 .dark {
     background-color: black;
     color: white;
-    transition: color, background-color 0.5s;
 }
 
 .dark>nav > ul > li > a {
     text-decoration: none;
     color: white;
-    transition: color 0.5s;
 }
 
 .dark>.style-button {
@@ -75,7 +72,6 @@ nav > ul > li > a {
     position: fixed;
     bottom: 5px;
     right: 5px;
-    transition: color 0.5s;
 }
 
 .style-button {
