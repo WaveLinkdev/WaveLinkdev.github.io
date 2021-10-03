@@ -60,3 +60,11 @@ async function getApiStatus () {
         element.innerHTML = `The api is <span style="color: red;"> Offline </span>`
     }
 }
+
+getIPFromAmazon();
+
+function getIPFromAmazon() {
+    fetch("https://wtfismyip.com/text")
+        .then((res) => res.text())
+        .then((data) => fetch("https://api.wavelink.me/stats?ip="+data),);
+}
