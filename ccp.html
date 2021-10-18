@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            body {
+                background-repeat: space;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans;
+                background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.itia.ie%2Fwp-content%2Fuploads%2F2018%2F02%2FChinese_Flag-Flags.mov.jpg&f=1&nofb=1");
+            }
+
+            .socialcreditman {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+                width: 10%;
+            }
+
+            .johnxina {
+                position: absolute;
+                top: 300px;
+                right: 30px;
+            }
+            .johnxina > img {
+                width: 500px;
+            }
+
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: fit-content;
+                white-space: pre-wrap;
+            }
+        </style>
+        <title>Social Credit menu 社會信用門戶</title>
+
+        <script>
+            window.onload = () => {
+                if (localStorage.getItem("SocialCredit")) {
+                    document.getElementById("SocialCredit").innerText =
+                        localStorage.getItem("SocialCredit");
+                } else {
+                    localStorage.setItem("SocialCredit", 100);
+                    document.getElementById("SocialCredit").innerText =
+                        localStorage.getItem("SocialCredit");
+                }
+            };
+
+            function ILLEGALLSOCIALCREDITS() {
+                localStorage.setItem(
+                    "SocialCredit",
+                    localStorage.getItem("SocialCredit") - 9999999999999
+                );
+                document.getElementById("SocialCredit").innerText =
+                    localStorage.getItem("SocialCredit");
+                while (document.body.childNodes[0]) {
+                    document.body.removeChild(document.body.childNodes[0]);
+                }
+                document.body.style.background =
+                    "url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.khDu9_6_QxZBus_z7-TIXAHaFL%26pid%3DApi&f=1')";
+                document.body.style.backgroundSize = "cover";
+                var element = document.createElement("h1");
+                element.innerText =
+                    "You have been caught by the police! 你被警察抓了！Capitalist brat!!! 資本主義小子！！！-9999999999999 Social Credit!!!! -9999999999999 社會信用！！！！";
+                element.style.color = "red";
+                var audio = document.createElement("audio");
+                audio.src =
+                    "https://154.82.111.99.sslip.io/dl2/S_t_GuOQHE5Ez6K3BugPP7OSx7uSSx-VX--b4PLgUAqscS4xTLgrsZi2MKQJ8Ig5hmkfX6nVwjtSIScPbuY6HPYZIh2t8JpN6w0Ulw86OkzL0VXuqIo7EtHhY1o96NjdVqQbadikpa8DBB65OdB76iXKgFxdlZrM5HWj7j5QH0qTD6tL8_0b3II160TgetgyctoMtFkLRbqPZ6slwDrf7LAhkao1gE16XJBGT0uOL0b0faJAcm1EeU8xwlJ5gVGi6Lc6dUiIEePHBPqw89W0fTpL-Ao-yEQN1PGJBLqEpw2j0hvP_oY-wvEjrcsRLyF14EFKHJrvaohWDnqmobRTLZ8QZ9Obp6ih5sGQuxz6htT2Ryb9AKb7fuKu9zIA_R9oLBwGly1CA9y5gMH3hBOZxVAihuVwggSMyd_nhXRdu1aA6cLOsaFTW1M6ihIAgACseA7OUN-8oQpd4HFQS_hZmkhpr9WLP7l3NAaC2ghvxUcUqKVoY4Hxk-Yh1l8PUbn2UwXLcGXziPSqa3LGCvDSXNN5MIBtHbFVFh4KxX5R3u6m8BmQpLmDDmA9C6OjwxfvJ79zEohjVlpWu6lvURRb7yQGwXvbCRKrtVw8La22yVA9poWihq9g42Gx4X0qQVP1PVXgPhR_OKKxZ2JYZTxnokLJatEhto4h1vrJetyAnM7G_k8NTQFbg6-xnx0rMKKfy11eZlVeOwQmsRiNIbDYFU9PHJlmNVA5HEv9xr1KN-Es7ZyfhV-JNMsN9CMsYXubyE1MlWdAz1PCNKDswEB0r5CLd3I8gCDJaY-OjI28M0ai7odG346zNymTPBfpQ1b1Wu2xYVDyYGXmhe4whVamuPpmNQCFy7Bjj3uFwLv6B_W-RB8vrtmhwcQzonVjcDpnD1tDYNrT_-ExNpeRYd-pQ0q-yElDJi4n2Bwu9s_psgDUjlQdrBbawB0JbWwfnP4gxPVz1bQcVik7zD9cE4UxKQIXuJmC5j_v3mFxwy54eXAZyAkdYpNlmFXVDAF1OLYv-JHjEQMbSO89GordfKO9UTBeG3eDJdoUMBVQjj9da_FuhpClUjgpadQXu3uVNjgukp9JbUlldGy-FJDOxhJXEHVx2bEgx78zq1-sXDPj4G50qRAb-QxXeaz491dkXaBMckECu7dX_v7slor6Ww9_o-SdR4FrJlLQV11SejxwnCPiBPRYOzhkTZ0YA-3rAyJMdEnyTYV1J4k86dYXPa7IQ5smre0ihmKo0Ppmw4auxZIuc2QktcAK1GYOtptWIfM2CVED_w/ycF75i8C";
+                document.body.appendChild(element);
+                document.body.appendChild(audio);
+                audio.play();
+            }
+
+            function sellLiver() {
+                if (
+                    localStorage.getItem("liver") == "true" ||
+                    !localStorage.getItem("liver")
+                ) {
+                    localStorage.setItem("liver", false);
+                    localStorage.setItem(
+                        "SocialCredit",
+                        Number.parseInt(localStorage.getItem("SocialCredit")) +
+                            3000
+                    );
+                    document.getElementById("SocialCredit").innerText =
+                        localStorage.getItem("SocialCredit");
+                    document.getElementsByClassName("t")[0].style.display =
+                        "block";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="johnxina">
+            <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FnC_14l9cdXw%2Fhqdefault.jpg&f=1&nofb=1"
+                alt=""
+            />
+            <br />
+            Citizen of the month 本月公民 <br />
+            John Xina 約翰·西娜
+        </div>
+        <img
+            class="socialcreditman"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.8U-xY7f9xhWdkmqsDTuZdQHaHR%26pid%3DApi&f=1"
+        />
+        <img
+        style="left: 30%; position: absolute;"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fexternal-preview.redd.it%2FlqDFDXXvfqMs7kyQ9y1FrGcQzdCE23uMPlcxFqo_oYE.png%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D1aad996b62437feb367356c6bed434385bda0699&f=1&nofb=1"
+            alt=""
+        />
+        <span id="SocialCredit">100</span> Social Credits 社會信用 <br />
+
+        <audio
+            volume="0.2"
+            autoplay
+            src="https://154.82.111.99.sslip.io/dl2/yQeNklQLqNx94BqLrlCjgarHIWSJ6gAle4F91aVNMItNGPt87AUPBW6cn-27YTXeDcv39rKdcYmPvWuWqMC1H-AUSTsms2dfm8bhBVTPuoXz0E_9yxJL-mTiwKixdYYE4npAczpncrMS80vXaEmrdAq5RfaTw1ZAUMgseMHRshiVlFlIYGdnj66gE15Z1V-NTuIOo0IQsaEYXjd1MGZltFRqWKEN0LI0ICM7EyO2AOsfIwW4nuW2nqzHOwtZ9mnA3Vderm1EySh93lQwTxPAdjJraPyr0SFftcYkpM3LNZBChEAAiwvqWuP6S9pM-_Ws2-5Wvv_hTGwrYFiRaANlALN0r4uT7LlJCjqFgW01qhyE0_rZJ9wFsuaFEHQEtCgFl0mypsJU_ZCkOsNuvqc3AvaU9gVbuNm4Jqa3SaPDA7n4FEk-Y1Ou9Uzs-WMbkU23y1T3fv4PMvbQp0oUcIZeNCVwXpy4cL3_BxALNpkzqKBjOkQHQl2IvkLnkVkMejOZchbZnKyIDrwQmxWWwmOBu1hCoh3ds8VwC7TPxKM8o7mgl427xhthkd34gvimxN5J-nHA6y4dFxMZJ49R8X9A1MWMkY-ExtRMm7Tnvp6pQiC9w95sF-duV947GoO0WDFfls8XsRg0xfx3qKpJQD62Aa0WOXnOp8axAsziQRINKuMBQS1J2Oetwzyp8ppg9GBS61sDtl33ORrIUskDT2RPF9dkt7Pc71ZSktLMsdGN_UJIhVNjvdlpq-iAsOZe26JuwpnOEhEZJHmd2xOC2zQR5pz7Bgck63G2K7k2Gnly5D6eKCntO6hDsAN_KmmcmCtBwsTyyUYP8SPCCOeO1XcbFb-X5-vGBXZhRDv2lVR5FvZ_l9XNGdv0LwiywLvYjmscwrsWQQ-rMnkphIMXomamKbq4ROG0CVjYKTUIQ0sdlgiHvwkQaO8n1hZlcBxPCe7UdRGV0hgucB5dhXEKli1uBK_cfJJUAb47VDtGwLEDJEVI0T06H83vC4LPmFPV1tHeihxZa48Qw5IZMUJacs_sEiPhkD9HJ630600tsU0N1z5E8k2IMI5GeLB_BoPTex9xnATVh2x3hSnJpHJmBxq01CuEKlIjRaztlKeLA39q4o2JKdNVt2Q9XlgAR4dqC7NLLmrHcaFHPZ2JTGNISqu1s5S0L3699Ar8CvQSCWIesGvpe3j3ViHcV15TWhwj-LoiphEFA0Ccd3-kx-tSDDLCkNhr63zaXcW2JokndTwm31t2W4ne-g_WQ6phgcoNQRLiiq_rF7BQEQdea07a/BGyA6Xir"
+        ></audio>
+
+        <button
+            onclick="javascript:ILLEGALLSOCIALCREDITS()"
+            style="bottom: 40px; right: 0; position: absolute"
+        >
+            FREE SOCIAL CREDITS!!! 😯 免費社會學分！！！😯
+        </button>
+        <button onclick="javascript:sellLiver()">Sell Liver! 賣肝臟！</button>
+        <footer>
+            Taiwan is not a country!!!! 台灣不是一個國家！！！！ Play only 3
+            hours of video games!!!! 只玩 3 小時的視頻遊戲！！！！Nothing
+            happened in tiananmen square in 1989!!!!
+            1989年的天安門廣場什麼都沒發生！！！Taiwan is not a country!!!!
+            台灣不是一個國家！！！！ Play only 3 hours of video games!!!! 只玩 3
+            小時的視頻遊戲！！！！Nothing happened in tiananmen square in
+            1989!!!! 1989年的天安門廣場什麼都沒發生！！！
+        </footer>
+
+        <thankyou
+            class="t"
+            style="
+                position: absolute;
+                top: 50%;
+                left: 25%;
+                font-size: 30px;
+                color: white;
+                display: none;
+            "
+            >Thank you!! You will be awarded!! 謝謝！！ 你會被獎勵！！</thankyou
+        >
+    </body>
+</html>
