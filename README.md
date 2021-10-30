@@ -1,2 +1,3 @@
-# WaveLinkdev.github.io
-The actual page is in the /production branch :)
+# wavelink.me
+
+The repository for the webpage at [wavelink.me](https://wavelink.me) 
