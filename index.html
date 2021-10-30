@@ -1,66 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link
+            rel="shortcut icon"
+            href="./assets/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/api.js"></script>
+        <title>Wavelink</title>
+    </head>
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js"></script>
-    <title>Wavelink</title>
-
-</head>
-
-<body>
-
-    <nav>
-        <ul id="nav">
-
-        </ul>
-    </nav>
-
-    <h1 class="title">
-        Wavelink
-    </h1>
-
-    <div class="content">
-        <h2 class="subtitle">About me</h2>
-        <p>
-            I am a student & developer from the Czech republic. I am most interested in <b>Web technologies</b> and
-            <b>Networking</b>. 
-        </p>
-        <h2>
-            Tech
-        </h2>
-        <ul>
-            <li>
-                Node JS
-            </li>
-            <li>
-                Mongo DB
-            </li>
-            <li>
-                Angular JS
-            </li>
-            <li>
-                Dotnet Core
-            </li>
-            <li>
-                Express
-            </li>
-            <li>
-                HTML/CSS/JS
-            </li>
-            <li>
-                Unity game engine
-            </li>
-        </ul>
-    </div>
-
-    <div class="footer">coded by wavelink <a href="https://github.com/WaveLinkdev/wavelink.me">here</a> | 
-    <span id="api-status">Fetching API Status</span>
-    <div/>
-</body>
-
+    <body style="height: 100vh; margin-top: -50px">
+        <div style="width: 100%; height: 50px;"></div>
+        <main>
+            <h1>Wavelink<span class="cursor">_</span></h1>
+            <small>take a look at <a href="/about.html">about me</a></small>
+            <br />
+            <small>see <a href="/contacts.html">contacts</a></small> <br />
+            <p>A self-taught developer and student from the Czech Republic.</p>
+            <p>
+                <a href="/about.html">Learn more</a>
+            </p>
+            <p>
+                <a href="https://github.com/wavelinkdev/wavelink.me"
+                    >Source code for this website</a
+                >
+            </p>
+            <p class="api-text">api status: <span id="api-status">...</span></p>
+        </main>
+    </body>
 </html>
