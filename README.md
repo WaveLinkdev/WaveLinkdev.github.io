@@ -1,3 +1,1 @@
-# wavelink.me
-
-The repository for the webpage at [wavelink.me](https://wavelink.me) 
+<img src="light-house.png" style="border-radius: 20px">
