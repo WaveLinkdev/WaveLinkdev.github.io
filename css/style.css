@@ -1,13 +1,20 @@
 body {
-    margin: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
     padding: 0;
+    margin: 0;
     font-family: "JetBrains Mono", monospace;
     text-align: center;
     background-color: #1e2130;
     color: #fff;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -42,4 +49,87 @@ a {
 .icon {
     vertical-align: middle;
     height: 20px;
+}
+
+code {
+    background-color: darkgray;
+    border-radius: 1px;
+    padding: 3px;
+    border: black 2px solid;
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        margin-top: 50px;
+    }
+    .side-panel {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100px;
+        background-color: #15161f;
+        animation: slide 1s;
+    }
+    .side-panel > ul {
+        margin-bottom: 5px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 20%;
+        margin-left: 10%;
+        text-align: left;
+        color: #fff;
+    }
+
+    .side-panel > ul > li {
+        margin-bottom: 5%;
+    }
+    .menu-icon {
+        display: none;
+    }
+}
+
+#menuToggle {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #menuToggle:checked ~ .menu-list {
+        max-height: 350px !important;
+    }
+    .menu-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s;
+    }
+    .side-panel {
+        text-align: left;
+        padding-left: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        background-color: #15161f;
+    }
+    .menu-list > li > a {
+        font-size: large;
+    }
+    .menu-list > li {
+        margin-top: 2%;
+    }
+    main {
+        padding: 5%;
+
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: none;
+    }
 }

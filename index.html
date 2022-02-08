@@ -15,13 +15,25 @@
     <title>Wavelink</title>
 </head>
 
-<body style="height: 100vh; margin-top: -50px">
-    <div style="width: 100%; height: 50px;"></div>
+<body>
+    <nav class="side-panel">
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">
+            <img src="/assets/bars-solid.svg" width="5%">
+        </label>
+
+        <ul class="menu-list">
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+        </ul>
+    </nav>
     <main>
-        <h1>Wavelink<span class="cursor">_</span></h1>
-        <small>take a look at <a href="/about.html">about me</a></small>
-        <br />
-        <small>see <a href="/contacts.html">contacts</a></small> <br />
+        <div>
+            <h1>Wavelink<span class="cursor">_</span></h1>
         <p>A self-taught developer and student from the Czech Republic.</p>
         <p>
             <a href="/about.html">Learn more</a>
@@ -29,8 +41,9 @@
         <p>
             <a href="https://github.com/wavelinkdev/wavelink.me">Source code for this website</a>
         </p>
-        <img style="border-radius: 40px;" src="assets/lighthouse.png" alt="">
-        <p class="api-text">api status: <span id="api-status">...</span></p>
+        <img style="border-radius: 4vw; width: 100%; height: auto; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.301);" src="assets/lighthouse.png" alt="">
+        <p class="api-text">api status: <noscript> Can't fetch becuase you don't have Javascript enabled </noscript> <span id="api-status">...</span></p>
+        </div>
     </main>
 </body>
 

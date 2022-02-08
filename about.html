@@ -12,11 +12,25 @@
     <title>Wavelink</title>
 </head>
 
-<body style="height: 100vh; margin-top: -50px">
-    <div style="width: 100%; height: 50px"></div>
-    <h1>About<span class="cursor">_</span></h1>
-    <small>see <a href="/contacts.html">contacts</a></small> <br />
-    <small>go back <a href="/index.html">home</a></small> <br />
+<body>
+    <nav class="side-panel">
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menu-icon">
+            <img src="/assets/bars-solid.svg" width="5%">
+        </label>
+
+        <ul class="menu-list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h1>About<span class="cursor">_</span></h1>
     <p>Currently learning <a href="https://go.dev/"><img class="icon" src="assets/golang-logo.webp" alt=""> Go-lang</a>
     </p>
     <p>Proficient in <a href="https://nodejs.org/en/about"><img class="icon" src="assets/nodejs-logo.webp"
@@ -39,6 +53,8 @@
     <p>I have created <a href="http://peternj.ml">peternj.ml</a> & <a href="https://paracosmdev.com">paracosmdev.com</a>
     </p>
 
+        </div>
+    </main>
 </body>
 
 </html>
