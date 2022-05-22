@@ -1,3 +1,5 @@
+// Obfuscated cuz why not + someone could easily crack it 🥶 PS I forgot to save the original version :)
+
 function _0xe22a() {
     var _0x4ea212 = [
         "getElementById",
